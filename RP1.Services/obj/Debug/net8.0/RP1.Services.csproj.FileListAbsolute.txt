@@ -44,6 +44,7 @@ C:\Users\edgar\Desktop\Repos\RP1.Services\obj\Debug\net8.0\RP1.Services.Generate
 C:\Users\edgar\Desktop\Repos\RP1.Services\obj\Debug\net8.0\RP1.Services.AssemblyInfoInputs.cache
 C:\Users\edgar\Desktop\Repos\RP1.Services\obj\Debug\net8.0\RP1.Services.AssemblyInfo.cs
 C:\Users\edgar\Desktop\Repos\RP1.Services\obj\Debug\net8.0\RP1.Services.csproj.CoreCompileInputs.cache
+C:\Users\edgar\Desktop\Repos\RP1.Services\obj\Debug\net8.0\RP1.Services.sourcelink.json
 C:\Users\edgar\Desktop\Repos\RP1.Services\obj\Debug\net8.0\RP1.Serv.49EBF1D0.Up2Date
 C:\Users\edgar\Desktop\Repos\RP1.Services\obj\Debug\net8.0\RP1.Services.dll
 C:\Users\edgar\Desktop\Repos\RP1.Services\obj\Debug\net8.0\refint\RP1.Services.dll

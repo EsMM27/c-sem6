@@ -54,6 +54,96 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\26865e69-30d3-4e9b-9241-3dd49daf83ba.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RP1_L00148202</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RP1_L00148202</BasePath>
+      <RelativePath>Images/Products/26865e69-30d3-4e9b-9241-3dd49daf83ba.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>rn0nqv58uk</Fingerprint>
+      <Integrity>F+nPcpeZTqIZnwSye8Xh9QyAYRi/TP4PiGu8B5cEOUo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\26865e69-30d3-4e9b-9241-3dd49daf83ba.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\52b7f874-3d93-4a95-b057-40d3178762d0.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RP1_L00148202</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RP1_L00148202</BasePath>
+      <RelativePath>Images/Products/52b7f874-3d93-4a95-b057-40d3178762d0.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>wc6p13emd1</Fingerprint>
+      <Integrity>kCYnSzYY4Nj6BZBct7kK647WZsIpi5IOFCohQ96h29E=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\52b7f874-3d93-4a95-b057-40d3178762d0.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\5e415a00-c32c-41d6-9223-755af0ef4d96.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RP1_L00148202</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RP1_L00148202</BasePath>
+      <RelativePath>Images/Products/5e415a00-c32c-41d6-9223-755af0ef4d96.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>652v3a5rs4</Fingerprint>
+      <Integrity>mndl7Ro8JABTMwQS+VtgDNNYy45uBE6krIiJMQuKnNY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\5e415a00-c32c-41d6-9223-755af0ef4d96.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\5e51adcf-5d04-46d1-bbcf-42d43e9f5e25.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RP1_L00148202</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RP1_L00148202</BasePath>
+      <RelativePath>Images/Products/5e51adcf-5d04-46d1-bbcf-42d43e9f5e25.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>m5irp0bsr5</Fingerprint>
+      <Integrity>VgKoU+w6jl2zWLL2ZZtDE/p7RPI1s9kY7hJRWGSXZvw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\5e51adcf-5d04-46d1-bbcf-42d43e9f5e25.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\9444163a-9a32-47bc-90e3-cacd1c785e06.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RP1_L00148202</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RP1_L00148202</BasePath>
+      <RelativePath>Images/Products/9444163a-9a32-47bc-90e3-cacd1c785e06.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>np3dld201x</Fingerprint>
+      <Integrity>C/2QGkTibk04LO89td4rNeTXifZHi0A3hGO0zRB1WTU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\9444163a-9a32-47bc-90e3-cacd1c785e06.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))">
       <SourceType>Package</SourceType>
       <SourceId>RP1_L00148202</SourceId>

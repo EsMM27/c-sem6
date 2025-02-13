@@ -10,6 +10,10 @@ namespace RP1.DataAccess
         }
         public DbSet<Category> Categories { get; set; }
 
+        public DbSet<Product> Products { get; set; }
+
+        public DbSet<Item> Items { get; set; }
+
 
     }
 

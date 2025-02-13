@@ -1,6 +1,11 @@
 wwwroot\css\bootstrap.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\Images\Products\26865e69-30d3-4e9b-9241-3dd49daf83ba.png
+wwwroot\Images\Products\52b7f874-3d93-4a95-b057-40d3178762d0.png
+wwwroot\Images\Products\5e415a00-c32c-41d6-9223-755af0ef4d96.jpg
+wwwroot\Images\Products\5e51adcf-5d04-46d1-bbcf-42d43e9f5e25.png
+wwwroot\Images\Products\9444163a-9a32-47bc-90e3-cacd1c785e06.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

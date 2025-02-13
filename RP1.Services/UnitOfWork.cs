@@ -8,14 +8,18 @@ namespace RP1.Services
 
         private readonly AppDBContext _context;
         public ICategoryRepo CategoryRepo { get; private set; }
+        public IProductRepo ProductRepo { get; private set; }
         public UnitOfWork(AppDBContext context)
         {
             _context = context;
             CategoryRepo = new CategoryRepo(_context);
+            ProductRepo = new ProductRepo(_context);
         }
-        public void Save()
+        public async Task SaveAsync()
         {
-            _context.SaveChanges();
+            Console.WriteLine("Saving changes to the database...");
+            await _context.SaveChangesAsync();
+            Console.WriteLine("Database changes saved.");
         }
         public void Dispose()
         {

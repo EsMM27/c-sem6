@@ -24,7 +24,7 @@ namespace MyProj_L00148202.Pages.Admin.Categories
             if (ModelState.IsValid)
             {
                 _unitOfWork.CategoryRepo.Update(category);
-                _unitOfWork.Save();
+                _unitOfWork.SaveAsync();
             }
 
             return RedirectToPage("Index");

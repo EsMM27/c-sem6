@@ -43,6 +43,7 @@ C:\Users\edgar\Desktop\Repos\RP1.DataAccess\obj\Debug\net8.0\RP1.DataAccess.Gene
 C:\Users\edgar\Desktop\Repos\RP1.DataAccess\obj\Debug\net8.0\RP1.DataAccess.AssemblyInfoInputs.cache
 C:\Users\edgar\Desktop\Repos\RP1.DataAccess\obj\Debug\net8.0\RP1.DataAccess.AssemblyInfo.cs
 C:\Users\edgar\Desktop\Repos\RP1.DataAccess\obj\Debug\net8.0\RP1.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\edgar\Desktop\Repos\RP1.DataAccess\obj\Debug\net8.0\RP1.DataAccess.sourcelink.json
 C:\Users\edgar\Desktop\Repos\RP1.DataAccess\obj\Debug\net8.0\RP1.Data.11BA2071.Up2Date
 C:\Users\edgar\Desktop\Repos\RP1.DataAccess\obj\Debug\net8.0\RP1.DataAccess.dll
 C:\Users\edgar\Desktop\Repos\RP1.DataAccess\obj\Debug\net8.0\refint\RP1.DataAccess.dll

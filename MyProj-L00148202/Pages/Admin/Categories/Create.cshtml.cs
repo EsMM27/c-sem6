@@ -23,7 +23,7 @@ namespace MyProj_L00148202.Pages.Admin.Categories
                 if (ModelState.IsValid)
                 {
                     _unitOfWork.CategoryRepo.Add(category);
-                    _unitOfWork.Save();
+                    _unitOfWork.SaveAsync();
                 }
 
                 return RedirectToPage("Index");

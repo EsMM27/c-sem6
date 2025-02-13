@@ -6,6 +6,8 @@ namespace RP1.Services
     {
         ICategoryRepo CategoryRepo { get; }
 
-        void Save();
+        Task SaveAsync();
+
+        IProductRepo ProductRepo { get; }
     }
 }

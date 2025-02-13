@@ -36,7 +36,7 @@ namespace MyProj_L00148202.Pages.Admin.Categories
             // Remove from DbSet
             _unitOfWork.CategoryRepo.Delete(categoryToDelete);
             // Save changes
-            _unitOfWork.Save();
+            _unitOfWork.SaveAsync();
 
             // Go to Index
             return RedirectToPage("Index");
