@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using RP1.DataAccess;
 using RP1.DataAccess.Repository;
@@ -10,19 +11,17 @@ builder.Services.AddRazorPages();
 // needs package entityframeworkcore.sqlserver
 //builder.Services.AddDbContext<AppDBContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-
 builder.Services.AddDbContext<AppDBContext>(options =>
     options.UseSqlServer(
         builder.Configuration.GetConnectionString("DefaultConnection"),
         sqlServerOptions => sqlServerOptions.MigrationsAssembly("RP1_L00148202") // Specify migrations assembly
     ));
 
+builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AppDBContext>();
+
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
-
 var app = builder.Build();
-
-
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -37,6 +36,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapRazorPages();
