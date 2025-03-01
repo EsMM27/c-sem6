@@ -1,0 +1,21 @@
+﻿@page
+@model RP1_L00148202.Pages.LogoutModel
+@{
+    // Add any additional logic or messages here if needed
+}
+
+<form method="post">
+    <div class="border p-3 mt-4">
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <div class="row pb-2"></div>
+        <h2 class="text-primary p-lg-3">Logout</h2>
+    </div>
+
+    <div class="mb-3">
+        <p> Are you sure you want to logout? </p>
+        <p>
+            <button class="btn btn-primary" asp-page-handler="Logout">Yes</button>
+            <button class="btn btn-outline-secondary ml-5" asp-page-handler="NoLogout">No</button>    
+        </p>
+    </div>
+</form>

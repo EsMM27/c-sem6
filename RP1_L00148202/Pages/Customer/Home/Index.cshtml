@@ -1,0 +1,58 @@
+﻿@page
+@model RP1_L00148202.Pages.Customer.Home.IndexModel
+@{
+}
+
+
+
+
+
+<div class="row container pb-3 backgroundWhite">
+	<p>
+		<form class="d-flex" class="col-3">
+			<input type="text" placeholder="Enter Product Name" class="form-control me-sm-2" asp-for="SearchString"/>
+			<input type="submit" value="Search" class="btn btn-outline" class="form-control align-content-end"/>
+			<a asp-route-Products="" asp-route-SearchString="" class="btn btn-outline-secondary">Clear</a>
+		</form>
+	</p>
+	</br>
+	</br>
+	</br>
+
+
+	@foreach (var category in Model.listOfcategory)
+	{ 
+		<h2 class="text-success pl-1"><b>@category.Name</b></h2>
+		<div class="col-12">
+			<div class="row my-3">
+			@foreach (var product in Model.listOfProduct.Where(prop => prop.CategoryID == category.Id))
+			{
+				<div class="col-lg-4 col-md-6 pb-4 filter">
+					<div class="card bg-white rounded shadow-sm" style="border:1px solid #222">
+						<div class="card-body pb-1 row">
+							<div class="col-8 h5">@product.Name</div>
+							<div class="col-4 text-end"><span class="text-info h4">@product.Price</span></div>
+						</div>
+						<img class="card-img-top img-fluid d-block mx-auto mb-3" src="/@product.Image" alt="product image">
+						<div class="card-body p-1 px-3 row">
+							<div class="col-6">
+									<span class="badge p-2 border w-100 text-dark bg-warning ">@product.Category.Name</span>
+							</div>
+							<div class="col-6 border-0">
+								<span class="badge p-2 border w-100 bg-info ">@product.Name</span>
+							</div>
+							<div class="col-12 pt-2" style="font-size:13px; text-align:justify">
+								<p>@product.Description</p>
+							</div>
+							<div class="col-12 p-1">
+								<a asp-page="Details" asp-route-id="@product.ID" class="btn btn-dark from-control btn-sm p-2" style="height:40px">View Details</a>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			}
+			</div>
+        </div>
+	}
+</div>

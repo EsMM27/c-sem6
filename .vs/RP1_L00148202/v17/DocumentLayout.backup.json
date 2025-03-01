@@ -1,7 +1,47 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\edgar\\Desktop\\Repos\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7406C989-620C-4A93-9133-B614B95478AE}|RP1_L00148202\\RP1_L00148202.csproj|c:\\users\\edgar\\desktop\\repos\\rp1_l00148202\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7406C989-620C-4A93-9133-B614B95478AE}|RP1_L00148202\\RP1_L00148202.csproj|solutionrelative:rp1_l00148202\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7406C989-620C-4A93-9133-B614B95478AE}|RP1_L00148202\\RP1_L00148202.csproj|c:\\users\\edgar\\desktop\\repos\\rp1_l00148202\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7406C989-620C-4A93-9133-B614B95478AE}|RP1_L00148202\\RP1_L00148202.csproj|solutionrelative:rp1_l00148202\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7406C989-620C-4A93-9133-B614B95478AE}|RP1_L00148202\\RP1_L00148202.csproj|c:\\users\\edgar\\desktop\\repos\\rp1_l00148202\\pages\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7406C989-620C-4A93-9133-B614B95478AE}|RP1_L00148202\\RP1_L00148202.csproj|solutionrelative:rp1_l00148202\\pages\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7406C989-620C-4A93-9133-B614B95478AE}|RP1_L00148202\\RP1_L00148202.csproj|c:\\users\\edgar\\desktop\\repos\\rp1_l00148202\\pages\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7406C989-620C-4A93-9133-B614B95478AE}|RP1_L00148202\\RP1_L00148202.csproj|solutionrelative:rp1_l00148202\\pages\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/AppDB/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7406C989-620C-4A93-9133-B614B95478AE}|RP1_L00148202\\RP1_L00148202.csproj|c:\\users\\edgar\\desktop\\repos\\rp1_l00148202\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7406C989-620C-4A93-9133-B614B95478AE}|RP1_L00148202\\RP1_L00148202.csproj|solutionrelative:rp1_l00148202\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7406C989-620C-4A93-9133-B614B95478AE}|RP1_L00148202\\RP1_L00148202.csproj|c:\\users\\edgar\\desktop\\repos\\rp1_l00148202\\pages\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7406C989-620C-4A93-9133-B614B95478AE}|RP1_L00148202\\RP1_L00148202.csproj|solutionrelative:rp1_l00148202\\pages\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7406C989-620C-4A93-9133-B614B95478AE}|RP1_L00148202\\RP1_L00148202.csproj|c:\\users\\edgar\\desktop\\repos\\rp1_l00148202\\pages\\pageviewmodels\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7406C989-620C-4A93-9133-B614B95478AE}|RP1_L00148202\\RP1_L00148202.csproj|solutionrelative:rp1_l00148202\\pages\\pageviewmodels\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7406C989-620C-4A93-9133-B614B95478AE}|RP1_L00148202\\RP1_L00148202.csproj|c:\\users\\edgar\\desktop\\repos\\rp1_l00148202\\pages\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7406C989-620C-4A93-9133-B614B95478AE}|RP1_L00148202\\RP1_L00148202.csproj|solutionrelative:rp1_l00148202\\pages\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7406C989-620C-4A93-9133-B614B95478AE}|RP1_L00148202\\RP1_L00148202.csproj|c:\\users\\edgar\\desktop\\repos\\rp1_l00148202\\pages\\pageviewmodels\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7406C989-620C-4A93-9133-B614B95478AE}|RP1_L00148202\\RP1_L00148202.csproj|solutionrelative:rp1_l00148202\\pages\\pageviewmodels\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +49,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,6 +78,137 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dbo.AspNetUsers [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/AppDB/True/SqlTable/dbo.AspNetUsers.sql",
+              "ToolTip": "dbo.AspNetUsers [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-01T14:28:11.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\Desktop\\Repos\\RP1_L00148202\\Pages\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "RP1_L00148202\\Pages\\Logout.cshtml.cs",
+              "ToolTip": "C:\\Users\\edgar\\Desktop\\Repos\\RP1_L00148202\\Pages\\Logout.cshtml.cs",
+              "RelativeToolTip": "RP1_L00148202\\Pages\\Logout.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T14:23:41.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\edgar\\Desktop\\Repos\\RP1_L00148202\\Pages\\Logout.cshtml",
+              "RelativeDocumentMoniker": "RP1_L00148202\\Pages\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\edgar\\Desktop\\Repos\\RP1_L00148202\\Pages\\Logout.cshtml",
+              "RelativeToolTip": "RP1_L00148202\\Pages\\Logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-01T14:17:04.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\Desktop\\Repos\\RP1_L00148202\\Pages\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "RP1_L00148202\\Pages\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\edgar\\Desktop\\Repos\\RP1_L00148202\\Pages\\Login.cshtml.cs",
+              "RelativeToolTip": "RP1_L00148202\\Pages\\Login.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T14:13:51.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\edgar\\Desktop\\Repos\\RP1_L00148202\\Pages\\Login.cshtml",
+              "RelativeDocumentMoniker": "RP1_L00148202\\Pages\\Login.cshtml",
+              "ToolTip": "C:\\Users\\edgar\\Desktop\\Repos\\RP1_L00148202\\Pages\\Login.cshtml",
+              "RelativeToolTip": "RP1_L00148202\\Pages\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-01T14:12:14.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\Desktop\\Repos\\RP1_L00148202\\Pages\\PageViewModels\\Login.cs",
+              "RelativeDocumentMoniker": "RP1_L00148202\\Pages\\PageViewModels\\Login.cs",
+              "ToolTip": "C:\\Users\\edgar\\Desktop\\Repos\\RP1_L00148202\\Pages\\PageViewModels\\Login.cs",
+              "RelativeToolTip": "RP1_L00148202\\Pages\\PageViewModels\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T14:10:17.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\edgar\\Desktop\\Repos\\RP1_L00148202\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "RP1_L00148202\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\edgar\\Desktop\\Repos\\RP1_L00148202\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "RP1_L00148202\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-01T14:02:15.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\Desktop\\Repos\\RP1_L00148202\\Pages\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "RP1_L00148202\\Pages\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\edgar\\Desktop\\Repos\\RP1_L00148202\\Pages\\Register.cshtml.cs",
+              "RelativeToolTip": "RP1_L00148202\\Pages\\Register.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T13:44:27.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\edgar\\Desktop\\Repos\\RP1_L00148202\\Pages\\Register.cshtml",
+              "RelativeDocumentMoniker": "RP1_L00148202\\Pages\\Register.cshtml",
+              "ToolTip": "C:\\Users\\edgar\\Desktop\\Repos\\RP1_L00148202\\Pages\\Register.cshtml",
+              "RelativeToolTip": "RP1_L00148202\\Pages\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-01T13:43:22.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Register.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\Desktop\\Repos\\RP1_L00148202\\Pages\\PageViewModels\\Register.cs",
+              "RelativeDocumentMoniker": "RP1_L00148202\\Pages\\PageViewModels\\Register.cs",
+              "ToolTip": "C:\\Users\\edgar\\Desktop\\Repos\\RP1_L00148202\\Pages\\PageViewModels\\Register.cs",
+              "RelativeToolTip": "RP1_L00148202\\Pages\\PageViewModels\\Register.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T13:39:55.487Z",
+              "EditorCaption": ""
             }
           ]
         }
