@@ -4,6 +4,7 @@ namespace RP1_L00148202.Pages.PageViewModels
 {
     public class Login
     {
+
         [Required]
         [DataType(DataType.EmailAddress)]
         public string Email { get; set; }

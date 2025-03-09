@@ -1,5 +1,5 @@
 ﻿@page
-@model RP1_L00148202.Pages.RegisterModel
+@model RP1_L00148202.Pages.LoginModel
 @{
 }
 <form method="post">
@@ -11,19 +11,14 @@
 			</h2>
 		</div>
 		<div class="mb-3">
-			<label asp-for="Register.Email"></label>
-			<input asp-for="Register.Email" class="form-control" />
-			<span asp-validation-for="Register.Email" class="text-danger"></span>
+			<label asp-for="Login.Email"></label>
+			<input asp-for="Login.Email" class="form-control" />
+			<span asp-validation-for="Login.Email" class="text-danger"></span>
 		</div>
 		<div class="mb-3">
-			<label asp-for="Register.Password"></label>
-			<input asp-for="Register.Password" class="form-control" />
-			<span asp-validation-for="Register.Password" class="text-danger"></span>
-		</div>
-		<div class="mb-3">
-			<label asp-for="Register.ConfirmPassword"></label>
-			<input asp-for="Register.ConfirmPassword" class="form-control" />
-			<span asp-validation-for="Register.ConfirmPassword" class="text-danger"></span>
+			<label asp-for="Login.Password"></label>
+			<input asp-for="Login.Password" class="form-control" />
+			<span asp-validation-for="Login.Password" class="text-danger"></span>
 		</div>
 
 		<button type="submit" class="btn btn-primary">Login</button>

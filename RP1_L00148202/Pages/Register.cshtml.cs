@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using RP1.Models;
 using RP1_L00148202.Pages.PageViewModels;
 
 namespace RP1_L00148202.Pages
@@ -12,6 +13,7 @@ namespace RP1_L00148202.Pages
         private readonly SignInManager<IdentityUser> _signInManager;
 
         public Register Register { get; set; }
+        public ApplicationUser ApplicationUser { get; set; }
 
         public RegisterModel(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager)
         {
@@ -26,11 +28,17 @@ namespace RP1_L00148202.Pages
         {
             if (ModelState.IsValid)
             {
-                var user = new IdentityUser { UserName = Register.Email, Email = Register.Email };
+                var user = new ApplicationUser { FirstName = Register.FirstName,
+                    LastName = Register.LastName,
+                    UserName = Register.Email,
+                    Email = Register.Email,
+                    PhoneNumber = Register.PhoneNumber 
+                };
 
                 var result = await _userManager.CreateAsync(user, Register.Password);
                 if (result.Succeeded)
                 {
+                    await _userManager.AddToRoleAsync(user, "Customer");
                     await _signInManager.SignInAsync(user, isPersistent: false);
                     return RedirectToPage("/Index");
                 }

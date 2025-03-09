@@ -1,4 +1,5 @@
-﻿using RP1.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using RP1.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -39,6 +40,12 @@ namespace RP1.DataAccess.Repository
 
                 _context.Entry(productFromDb).State = Microsoft.EntityFrameworkCore.EntityState.Modified; //  Ensure EF tracks changes
             }
+        }
+
+        public Product GetProductCategory(int id)
+        {
+            var product = _context.Products.Include(c=>c.Category).FirstOrDefault(p => p.ID == id);
+            return product;
         }
 
     }

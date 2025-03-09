@@ -5,5 +5,6 @@ namespace RP1.DataAccess.Repository
     public interface IProductRepo : IRepository<Product>
     {
         public void Update(Product product);
+        Product GetProductCategory(int id);
     }
 }

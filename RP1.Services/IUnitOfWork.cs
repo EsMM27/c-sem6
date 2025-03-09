@@ -9,5 +9,9 @@ namespace RP1.Services
         Task SaveAsync();
 
         IProductRepo ProductRepo { get; }
+        IOrderRepo OrderRepo { get; }
+        IOrderItemRepo OrderItemRepo { get; }
+        IApplicationUserRepo ApplicationUserRepo { get; }
+        IShoppingCartRepo ShoppingCartRepo { get; }
     }
 }
