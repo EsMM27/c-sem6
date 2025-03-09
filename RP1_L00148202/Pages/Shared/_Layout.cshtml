@@ -21,23 +21,33 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    @*Always show home to visitors*@
+
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
+                        </li>
+                    </ul>
+
                     @if (SignInManager.IsSignedIn(User))
-                    { 
-                        <ul class="navbar-nav flex-grow-1">
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Administration</a>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="/Admin/Categories/Index">Categories</a>
-                                    <a class="dropdown-item" href="/Admin/Products/Index">Products</a>
-                                    <a class="dropdown-item" href="#">Something else here</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Separated link</a>
-                                </div>
-                            </li>
-                        </ul>
+                    {
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <ul class="navbar-nav flex-grow-1">
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Administration</a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="/Admin/Categories/Index">Categories</a>
+                                        <a class="dropdown-item" href="/Admin/Products/Index">Products</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Separated link</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        }
+                        
                         <ul class="navbar-nav flex-grow-1 justify-content-end">
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-page="/Logout">Logout</a>
@@ -54,7 +64,7 @@
                             </li>
                         </ul>
                     }
-                </div>
+                </>
             </div>
         </nav>
     </header>

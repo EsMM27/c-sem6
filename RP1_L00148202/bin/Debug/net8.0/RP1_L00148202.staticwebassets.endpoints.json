@@ -249,6 +249,88 @@
       ]
     },
     {
+      "Route": "Images/Products/91e69d65-89bb-4d16-9ecf-4b26bd2cbd46.jpg",
+      "AssetFile": "Images/Products/91e69d65-89bb-4d16-9ecf-4b26bd2cbd46.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C47j6Up6JLkskqE/vAbV9jsLaKLvgfP7fAtlFergrKE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 15:43:15 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-C47j6Up6JLkskqE/vAbV9jsLaKLvgfP7fAtlFergrKE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Products/91e69d65-89bb-4d16-9ecf-4b26bd2cbd46.r0n29p8mb1.jpg",
+      "AssetFile": "Images/Products/91e69d65-89bb-4d16-9ecf-4b26bd2cbd46.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C47j6Up6JLkskqE/vAbV9jsLaKLvgfP7fAtlFergrKE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 15:43:15 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r0n29p8mb1"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-C47j6Up6JLkskqE/vAbV9jsLaKLvgfP7fAtlFergrKE="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Products/91e69d65-89bb-4d16-9ecf-4b26bd2cbd46.jpg"
+        }
+      ]
+    },
+    {
       "Route": "Images/Products/9444163a-9a32-47bc-90e3-cacd1c785e06.np3dld201x.png",
       "AssetFile": "Images/Products/9444163a-9a32-47bc-90e3-cacd1c785e06.png",
       "Selectors": [],
@@ -439,7 +521,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Mar 2025 14:36:10 GMT"
+          "Value": "Sun, 09 Mar 2025 16:55:26 GMT"
         }
       ],
       "EndpointProperties": [
@@ -484,7 +566,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Mar 2025 14:36:10 GMT"
+          "Value": "Sun, 09 Mar 2025 16:55:26 GMT"
         }
       ],
       "EndpointProperties": [
