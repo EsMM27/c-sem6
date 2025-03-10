@@ -25,7 +25,7 @@ namespace RP1.DataAccess.Repository
             else
             {
                 var user = _context.Users.Where(u => u.Id == s).FirstOrDefault();
-                return user as ApplicationUser ?? throw new InvalidCastException("The user could not be cast to ApplicationUser.");
+                return _context.ApplicationUsers.Where(u => u.Id == s ).FirstOrDefault();
             }
         }
     }

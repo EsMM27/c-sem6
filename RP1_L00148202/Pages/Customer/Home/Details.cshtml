@@ -5,8 +5,9 @@
 
 <div class="">
     <form method="post">
-        <input asp-for="ShoppingCart.ProductId" hidden>
-        <input asp-for="ShoppingCart.ApplicationUserId" hidden>
+        <input type="hidden" asp-for="ShoppingCart.ApplicationUserId" />
+        <input type="hidden" asp-for="ShoppingCart.ProductId" />
+        <input type="number" asp-for="ShoppingCart.Quantity" />
 
         <div class="container backgroundWhite">
             <div class="card">
