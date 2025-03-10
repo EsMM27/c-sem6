@@ -51,18 +51,7 @@ public class Program {
 
         app.MapRazorPages();
 
-        //using (var scope = app.Services.CreateScope())
-        //{
-        //    var db = scope.ServiceProvider.GetRequiredService<AppDBContext>();
 
-        //    db.Categories.Add(new Category { Name = "test1" });
-        //    db.Categories.Add(new Category { Name = "test2" });
-        //    db.Categories.Add(new Category { Name = "test3" });
-        //    db.Categories.Add(new Category { Name = "test4" });
-        //    db.SaveChanges();
-        //}
-        //user 24eb65f0-e63a-4125-b29d-d596e7506d03
-        //role d14c5dd0-4ad8-4d1e-a6d6-5415af3faaad
 
         app.Run();
     }

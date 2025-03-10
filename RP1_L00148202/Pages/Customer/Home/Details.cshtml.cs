@@ -34,20 +34,43 @@ namespace RP1_L00148202.Pages.Customer.Home
             };
         }
 
-        public IActionResult OnPost()
+        public async Task<IActionResult> OnPost()
         {
+            if (ShoppingCart == null || ShoppingCart.ProductId == 0 || ShoppingCart.Quantity == 0)
+            {
+                ModelState.AddModelError("", "Invalid shopping cart data.");
+                return Page();
+            }
+
+            // Retrieve the current user's ID
+            var claimsIdentity = (ClaimsIdentity)User.Identity;
+            var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
+            if (claim == null)
+            {
+                ModelState.AddModelError("", "User is not authenticated.");
+                return Page();
+            }
+
+            // Set the ApplicationUserId
+            ShoppingCart.ApplicationUserId = claim.Value;
+
+            // Check if the item already exists in the cart
             ShoppingCart shoppingCartFromDb = _unitOfWork.ShoppingCartRepo.IncrementItem(ShoppingCart.ApplicationUserId, ShoppingCart.ProductId);
             if (shoppingCartFromDb == null)
             {
+                // Add new item to the cart
                 _unitOfWork.ShoppingCartRepo.Add(ShoppingCart);
-                _unitOfWork.SaveAsync();
             }
             else
             {
+                // Update existing item's quantity
                 shoppingCartFromDb.Quantity += ShoppingCart.Quantity;
                 _unitOfWork.ShoppingCartRepo.Update(shoppingCartFromDb);
-                _unitOfWork.SaveAsync();
             }
+
+            // Save changes to the database
+            await _unitOfWork.SaveAsync();
+
             if (ModelState.IsValid)
             {
                 return RedirectToPage("Index");

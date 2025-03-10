@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+Vek81ckBdY=",
+  "dgSpecHash": "s1lBtTI0L2A=",
   "success": true,
-  "projectFilePath": "C:\\Users\\edgar\\Desktop\\Repos\\RP1.DataAccess\\RP1.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\edgar\\Desktop\\C#\\c-sem6\\RP1.DataAccess\\RP1.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\edgar\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\edgar\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.3.0\\microsoft.aspnetcore.authentication.abstractions.2.3.0.nupkg.sha512",

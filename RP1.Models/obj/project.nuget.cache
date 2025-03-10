@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mH5caZQpM2I=",
+  "dgSpecHash": "sln9hBKGET8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\edgar\\Desktop\\Repos\\RP1.Models\\RP1.Models.csproj",
+  "projectFilePath": "C:\\Users\\edgar\\Desktop\\C#\\c-sem6\\RP1.Models\\RP1.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\edgar\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.3.0\\microsoft.aspnetcore.authentication.abstractions.2.3.0.nupkg.sha512",
     "C:\\Users\\edgar\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.3.0\\microsoft.aspnetcore.authentication.core.2.3.0.nupkg.sha512",

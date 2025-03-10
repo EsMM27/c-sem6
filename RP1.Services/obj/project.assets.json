@@ -4615,11 +4615,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\edgar\\Desktop\\Repos\\RP1.Services\\RP1.Services.csproj",
+      "projectUniqueName": "C:\\Users\\edgar\\Desktop\\C#\\c-sem6\\RP1.Services\\RP1.Services.csproj",
       "projectName": "RP1.Services",
-      "projectPath": "C:\\Users\\edgar\\Desktop\\Repos\\RP1.Services\\RP1.Services.csproj",
+      "projectPath": "C:\\Users\\edgar\\Desktop\\C#\\c-sem6\\RP1.Services\\RP1.Services.csproj",
       "packagesPath": "C:\\Users\\edgar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\edgar\\Desktop\\Repos\\RP1.Services\\obj\\",
+      "outputPath": "C:\\Users\\edgar\\Desktop\\C#\\c-sem6\\RP1.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4640,8 +4640,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\edgar\\Desktop\\Repos\\RP1.DataAccess\\RP1.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\edgar\\Desktop\\Repos\\RP1.DataAccess\\RP1.DataAccess.csproj"
+            "C:\\Users\\edgar\\Desktop\\C#\\c-sem6\\RP1.DataAccess\\RP1.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\edgar\\Desktop\\C#\\c-sem6\\RP1.DataAccess\\RP1.DataAccess.csproj"
             }
           }
         }

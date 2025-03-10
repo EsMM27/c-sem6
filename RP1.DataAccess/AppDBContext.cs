@@ -16,6 +16,7 @@ namespace RP1.DataAccess
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderItem> OrderItems { get; set; }
         public DbSet<ShoppingCart> ShoppingCarts { get; set; }
+        public DbSet<ApplicationUser> ApplicationUsers { get; set; }
     }
 
 }
