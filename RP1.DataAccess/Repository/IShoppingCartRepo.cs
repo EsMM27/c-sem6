@@ -12,5 +12,9 @@ namespace RP1.DataAccess.Repository
         void Add(ShoppingCart shoppingCart);
         ShoppingCart IncrementItem(string userid, int id);
         int IncrementQty(ShoppingCart shoppingCart, int qty);
+        IEnumerable<ShoppingCart> GetShoppingCartProduct(string userid);
+
+        int DecrementQty(ShoppingCart shoppingCart, int qty);
+        void RemoveAll(IEnumerable<ShoppingCart> items);
     }
 }

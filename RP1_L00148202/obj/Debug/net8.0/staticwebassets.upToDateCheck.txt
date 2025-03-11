@@ -1,7 +1,12 @@
 wwwroot\css\bootstrap.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\Images\Cart\bag-plus.svg
+wwwroot\Images\Cart\cart-70-32.png
+wwwroot\Images\Cart\dash-circle.svg
+wwwroot\Images\Cart\trash.svg
 wwwroot\Images\Products\26865e69-30d3-4e9b-9241-3dd49daf83ba.png
+wwwroot\Images\Products\2fc3605e-5d08-4c4a-9b6d-fdf6feae96d7.png
 wwwroot\Images\Products\52b7f874-3d93-4a95-b057-40d3178762d0.png
 wwwroot\Images\Products\5e51adcf-5d04-46d1-bbcf-42d43e9f5e25.png
 wwwroot\Images\Products\91e69d65-89bb-4d16-9ecf-4b26bd2cbd46.jpg

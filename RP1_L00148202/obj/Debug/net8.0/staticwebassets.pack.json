@@ -5,8 +5,28 @@
       "PackagePath": "staticwebassets\\RP1_L00148202.photuvokk0.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\edgar\\Desktop\\C#\\c-sem6\\RP1_L00148202\\wwwroot\\Images\\Cart\\bag-plus.svg",
+      "PackagePath": "staticwebassets\\Images\\Cart\\bag-plus.svg"
+    },
+    {
+      "Id": "C:\\Users\\edgar\\Desktop\\C#\\c-sem6\\RP1_L00148202\\wwwroot\\Images\\Cart\\cart-70-32.png",
+      "PackagePath": "staticwebassets\\Images\\Cart\\cart-70-32.png"
+    },
+    {
+      "Id": "C:\\Users\\edgar\\Desktop\\C#\\c-sem6\\RP1_L00148202\\wwwroot\\Images\\Cart\\dash-circle.svg",
+      "PackagePath": "staticwebassets\\Images\\Cart\\dash-circle.svg"
+    },
+    {
+      "Id": "C:\\Users\\edgar\\Desktop\\C#\\c-sem6\\RP1_L00148202\\wwwroot\\Images\\Cart\\trash.svg",
+      "PackagePath": "staticwebassets\\Images\\Cart\\trash.svg"
+    },
+    {
       "Id": "C:\\Users\\edgar\\Desktop\\C#\\c-sem6\\RP1_L00148202\\wwwroot\\Images\\Products\\26865e69-30d3-4e9b-9241-3dd49daf83ba.png",
       "PackagePath": "staticwebassets\\Images\\Products\\26865e69-30d3-4e9b-9241-3dd49daf83ba.png"
+    },
+    {
+      "Id": "C:\\Users\\edgar\\Desktop\\C#\\c-sem6\\RP1_L00148202\\wwwroot\\Images\\Products\\2fc3605e-5d08-4c4a-9b6d-fdf6feae96d7.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\2fc3605e-5d08-4c4a-9b6d-fdf6feae96d7.png"
     },
     {
       "Id": "C:\\Users\\edgar\\Desktop\\C#\\c-sem6\\RP1_L00148202\\wwwroot\\Images\\Products\\52b7f874-3d93-4a95-b057-40d3178762d0.png",

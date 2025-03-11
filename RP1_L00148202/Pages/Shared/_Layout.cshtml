@@ -13,7 +13,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-black border-bottom box-shadow mb-3">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-page="/Index">RP1_L00148202</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -25,7 +25,7 @@
 
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
+                            <a class="nav-link text-white" asp-area="" asp-page="/Index">Home</a>
                         </li>
                     </ul>
 
@@ -48,9 +48,14 @@
                             </ul>
                         }
                         
-                        <ul class="navbar-nav flex-grow-1 justify-content-end">
+                        <ul class="navbar-nav flex-grow-1 justify-content-end ">
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-page="/Logout">Logout</a>
+                                <a class="nav-link text-light" asp-area="" asp-page="/Logout">Logout</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav d-flex justify-content-end">
+                            <li class="nav-item m-2">
+                                <a asp-area="" asp-page="/Customer/Cart/Index"><img src="~/Images/Cart/cart-70-32.png" alt="Shopping Cart"></a>
                             </li>
                         </ul>
                     } else
@@ -64,7 +69,7 @@
                             </li>
                         </ul>
                     }
-                </>
+                </ul>
             </div>
         </nav>
     </header>
