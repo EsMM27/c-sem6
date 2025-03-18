@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using RP1.DataAccess;
 using RP1.DataAccess.Repository;
 using RP1.Services;
+using RP1_L00148202.Pages.PageViewModels;
+using Stripe;
 
 
 public class Program {
@@ -24,6 +26,7 @@ public class Program {
         builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AppDBContext>();
 
         builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+        builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("Stripe"));
 
         builder.Services.ConfigureApplicationCookie(options =>
         {
@@ -45,6 +48,8 @@ public class Program {
         app.UseStaticFiles();
 
         app.UseRouting();
+        string key = builder.Configuration.GetSection("Stripe:SecretKey").Get<string>();
+        StripeConfiguration.ApiKey = key;
         await app.CreateRolesAsync(builder.Configuration);
         app.UseAuthentication();
         app.UseAuthorization();

@@ -22,19 +22,14 @@ namespace RP1_L00148202.Pages.Customer.Cart
             {
                 var claimsIdentity = (ClaimsIdentity)User.Identity;
                 var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
-
                 if (claim != null)
                 {
-                    // Get the shopping cart for the logged-in user, including Product & Category
                     ShoppingCartList = _unitOfWork.ShoppingCartRepo.GetShoppingCartProduct(claim.Value);
-
                     if (ShoppingCartList == null)
                     {
                         Console.WriteLine("ShoppingCartList is null.");
                         return;
                     }
-
-                    // Calculate the cart total
                     CartTotal = 0; // reset before summing
                     foreach (var item in ShoppingCartList)
                     {
@@ -43,14 +38,11 @@ namespace RP1_L00148202.Pages.Customer.Cart
                             Console.WriteLine($"Product is null for ShoppingCart ID: {item?.Id}");
                             continue;
                         }
-
                         CartTotal += item.Product.Price * item.Quantity;
                     }
                 }
             }
         }
-
-
 
         public IActionResult OnPostPlus(int CartID)
         {

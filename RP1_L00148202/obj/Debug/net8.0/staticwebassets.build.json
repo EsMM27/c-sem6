@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "I3z3eRHwHn/7BD5LvsOfiSTkOoOS3006k1I2QJwjBmc=",
+  "Hash": "ipIFZ2ePNvkrOESbQQKlQx5k74VITfBx8gTaJTLRyBY=",
   "Source": "RP1_L00148202",
   "BasePath": "_content/RP1_L00148202",
   "Mode": "Default",
@@ -206,6 +206,27 @@
       "OriginalItemSpec": "wwwroot\\Images\\Cart\\trash.svg"
     },
     {
+      "Identity": "C:\\Users\\edgar\\Desktop\\C#\\c-sem6\\RP1_L00148202\\wwwroot\\Images\\Products\\154ac416-43ce-4fe2-b9a5-cd41a95bfd84.png",
+      "SourceId": "RP1_L00148202",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edgar\\Desktop\\C#\\c-sem6\\RP1_L00148202\\wwwroot\\",
+      "BasePath": "_content/RP1_L00148202",
+      "RelativePath": "Images/Products/154ac416-43ce-4fe2-b9a5-cd41a95bfd84#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gsi9bq8kb8",
+      "Integrity": "YNrVN7BOeTZeNBUDBoSsrDh+4Be/wpgaQWw2s/Y9O4U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Products\\154ac416-43ce-4fe2-b9a5-cd41a95bfd84.png"
+    },
+    {
       "Identity": "C:\\Users\\edgar\\Desktop\\C#\\c-sem6\\RP1_L00148202\\wwwroot\\Images\\Products\\26865e69-30d3-4e9b-9241-3dd49daf83ba.png",
       "SourceId": "RP1_L00148202",
       "SourceType": "Discovered",
@@ -330,6 +351,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Products\\9444163a-9a32-47bc-90e3-cacd1c785e06.png"
+    },
+    {
+      "Identity": "C:\\Users\\edgar\\Desktop\\C#\\c-sem6\\RP1_L00148202\\wwwroot\\Images\\Products\\a2013948-9b7e-4fbd-a258-6628b7791921.png",
+      "SourceId": "RP1_L00148202",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\edgar\\Desktop\\C#\\c-sem6\\RP1_L00148202\\wwwroot\\",
+      "BasePath": "_content/RP1_L00148202",
+      "RelativePath": "Images/Products/a2013948-9b7e-4fbd-a258-6628b7791921#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4h8a8ncj8u",
+      "Integrity": "aI3cggsDleIQi2caQpGZkRoHnobC1jOut/omVdFq7kY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Products\\a2013948-9b7e-4fbd-a258-6628b7791921.png"
     },
     {
       "Identity": "C:\\Users\\edgar\\Desktop\\C#\\c-sem6\\RP1_L00148202\\wwwroot\\Images\\Products\\d9e6a720-15a4-4ace-aa98-d180178e1711.jpg",
@@ -2168,6 +2210,88 @@
       ]
     },
     {
+      "Route": "Images/Products/154ac416-43ce-4fe2-b9a5-cd41a95bfd84.gsi9bq8kb8.png",
+      "AssetFile": "C:\\Users\\edgar\\Desktop\\C#\\c-sem6\\RP1_L00148202\\wwwroot\\Images\\Products\\154ac416-43ce-4fe2-b9a5-cd41a95bfd84.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3330854"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YNrVN7BOeTZeNBUDBoSsrDh+4Be/wpgaQWw2s/Y9O4U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 10:10:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gsi9bq8kb8"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Products/154ac416-43ce-4fe2-b9a5-cd41a95bfd84.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YNrVN7BOeTZeNBUDBoSsrDh+4Be/wpgaQWw2s/Y9O4U="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Products/154ac416-43ce-4fe2-b9a5-cd41a95bfd84.png",
+      "AssetFile": "C:\\Users\\edgar\\Desktop\\C#\\c-sem6\\RP1_L00148202\\wwwroot\\Images\\Products\\154ac416-43ce-4fe2-b9a5-cd41a95bfd84.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3330854"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YNrVN7BOeTZeNBUDBoSsrDh+4Be/wpgaQWw2s/Y9O4U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 10:10:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YNrVN7BOeTZeNBUDBoSsrDh+4Be/wpgaQWw2s/Y9O4U="
+        }
+      ]
+    },
+    {
       "Route": "Images/Products/26865e69-30d3-4e9b-9241-3dd49daf83ba.png",
       "AssetFile": "C:\\Users\\edgar\\Desktop\\C#\\c-sem6\\RP1_L00148202\\wwwroot\\Images\\Products\\26865e69-30d3-4e9b-9241-3dd49daf83ba.png",
       "Selectors": [],
@@ -2656,6 +2780,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-C/2QGkTibk04LO89td4rNeTXifZHi0A3hGO0zRB1WTU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Products/a2013948-9b7e-4fbd-a258-6628b7791921.4h8a8ncj8u.png",
+      "AssetFile": "C:\\Users\\edgar\\Desktop\\C#\\c-sem6\\RP1_L00148202\\wwwroot\\Images\\Products\\a2013948-9b7e-4fbd-a258-6628b7791921.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "408924"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aI3cggsDleIQi2caQpGZkRoHnobC1jOut/omVdFq7kY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 10:09:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4h8a8ncj8u"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Products/a2013948-9b7e-4fbd-a258-6628b7791921.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aI3cggsDleIQi2caQpGZkRoHnobC1jOut/omVdFq7kY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Products/a2013948-9b7e-4fbd-a258-6628b7791921.png",
+      "AssetFile": "C:\\Users\\edgar\\Desktop\\C#\\c-sem6\\RP1_L00148202\\wwwroot\\Images\\Products\\a2013948-9b7e-4fbd-a258-6628b7791921.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "408924"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aI3cggsDleIQi2caQpGZkRoHnobC1jOut/omVdFq7kY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 10:09:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aI3cggsDleIQi2caQpGZkRoHnobC1jOut/omVdFq7kY="
         }
       ]
     },
