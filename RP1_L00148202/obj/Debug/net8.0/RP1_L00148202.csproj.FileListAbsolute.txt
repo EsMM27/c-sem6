@@ -735,7 +735,6 @@ C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\Microsoft.Visual
 C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
 C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\Mono.TextTemplating.dll
 C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\Moq.dll
 C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\Newtonsoft.Json.dll
@@ -757,7 +756,6 @@ C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\System.Compositi
 C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\System.Composition.TypedParts.dll
 C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
 C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
-C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\System.Drawing.Common.dll
 C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\System.Formats.Asn1.dll
 C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\System.IO.Pipelines.dll
@@ -765,10 +763,8 @@ C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\System.Memory.Da
 C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
 C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\System.Runtime.Caching.dll
 C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\System.Security.Permissions.dll
 C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\System.Text.Encodings.Web.dll
 C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\System.Text.Json.dll
-C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\System.Windows.Extensions.dll
 C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\xunit.abstractions.dll
 C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\xunit.assert.dll
 C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\xunit.core.dll
@@ -930,12 +926,8 @@ C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\runtimes\win-arm
 C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
-C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\RP1.DataAccess.dll
 C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\RP1.Models.dll
 C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\RP1.Services.dll
@@ -971,3 +963,4 @@ C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\obj\Debug\net8.0\refint\RP1_L0014
 C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\obj\Debug\net8.0\RP1_L00148202.pdb
 C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\obj\Debug\net8.0\RP1_L00148202.genruntimeconfig.cache
 C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\obj\Debug\net8.0\ref\RP1_L00148202.dll
+C:\Users\edgar\Desktop\C#\c-sem6\RP1_L00148202\bin\Debug\net8.0\Stripe.net.dll

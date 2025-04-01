@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RP1.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,6 @@ namespace RP1.DataAccess.Repository
 {
     public interface IOrderItemRepo
     {
+        void Add(OrderItem orderItem);
     }
 }

@@ -5,8 +5,32 @@
       "PackagePath": "staticwebassets\\RP1_L00148202.photuvokk0.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\edgar\\Desktop\\C#\\c-sem6\\RP1_L00148202\\wwwroot\\Images\\Cart\\bag-plus.svg",
+      "PackagePath": "staticwebassets\\Images\\Cart\\bag-plus.svg"
+    },
+    {
+      "Id": "C:\\Users\\edgar\\Desktop\\C#\\c-sem6\\RP1_L00148202\\wwwroot\\Images\\Cart\\cart-70-32.png",
+      "PackagePath": "staticwebassets\\Images\\Cart\\cart-70-32.png"
+    },
+    {
+      "Id": "C:\\Users\\edgar\\Desktop\\C#\\c-sem6\\RP1_L00148202\\wwwroot\\Images\\Cart\\dash-circle.svg",
+      "PackagePath": "staticwebassets\\Images\\Cart\\dash-circle.svg"
+    },
+    {
+      "Id": "C:\\Users\\edgar\\Desktop\\C#\\c-sem6\\RP1_L00148202\\wwwroot\\Images\\Cart\\trash.svg",
+      "PackagePath": "staticwebassets\\Images\\Cart\\trash.svg"
+    },
+    {
+      "Id": "C:\\Users\\edgar\\Desktop\\C#\\c-sem6\\RP1_L00148202\\wwwroot\\Images\\Products\\154ac416-43ce-4fe2-b9a5-cd41a95bfd84.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\154ac416-43ce-4fe2-b9a5-cd41a95bfd84.png"
+    },
+    {
       "Id": "C:\\Users\\edgar\\Desktop\\C#\\c-sem6\\RP1_L00148202\\wwwroot\\Images\\Products\\26865e69-30d3-4e9b-9241-3dd49daf83ba.png",
       "PackagePath": "staticwebassets\\Images\\Products\\26865e69-30d3-4e9b-9241-3dd49daf83ba.png"
+    },
+    {
+      "Id": "C:\\Users\\edgar\\Desktop\\C#\\c-sem6\\RP1_L00148202\\wwwroot\\Images\\Products\\2fc3605e-5d08-4c4a-9b6d-fdf6feae96d7.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\2fc3605e-5d08-4c4a-9b6d-fdf6feae96d7.png"
     },
     {
       "Id": "C:\\Users\\edgar\\Desktop\\C#\\c-sem6\\RP1_L00148202\\wwwroot\\Images\\Products\\52b7f874-3d93-4a95-b057-40d3178762d0.png",
@@ -23,6 +47,10 @@
     {
       "Id": "C:\\Users\\edgar\\Desktop\\C#\\c-sem6\\RP1_L00148202\\wwwroot\\Images\\Products\\9444163a-9a32-47bc-90e3-cacd1c785e06.png",
       "PackagePath": "staticwebassets\\Images\\Products\\9444163a-9a32-47bc-90e3-cacd1c785e06.png"
+    },
+    {
+      "Id": "C:\\Users\\edgar\\Desktop\\C#\\c-sem6\\RP1_L00148202\\wwwroot\\Images\\Products\\a2013948-9b7e-4fbd-a258-6628b7791921.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\a2013948-9b7e-4fbd-a258-6628b7791921.png"
     },
     {
       "Id": "C:\\Users\\edgar\\Desktop\\C#\\c-sem6\\RP1_L00148202\\wwwroot\\Images\\Products\\d9e6a720-15a4-4ace-aa98-d180178e1711.jpg",

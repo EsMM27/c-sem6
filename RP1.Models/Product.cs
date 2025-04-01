@@ -16,7 +16,7 @@ namespace RP1.Models
         [Required]
         public string Name { get; set; } = string.Empty;
         public string? Description { get; set; } = string.Empty;
-        public float? Price { get; set; }
+        public double Price { get; set; }
         public string? Image { get; set; }
 
         //forign key
